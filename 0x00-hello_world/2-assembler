@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE -o assemble.s
+gcc -S $CFILE
