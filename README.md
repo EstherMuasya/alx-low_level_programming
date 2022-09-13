@@ -1,4 +1,4 @@
 C Programming language.
-Hello world
-Variables
+Hello world,
+Variables,
 Conditional statements : if, if_else, else_if, while
