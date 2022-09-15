@@ -1,1 +1,1 @@
-The C programming language concepts
+The C programming language
