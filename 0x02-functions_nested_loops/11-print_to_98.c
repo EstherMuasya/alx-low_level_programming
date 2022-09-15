@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - Check Holberton
  * @n: A input integer
@@ -8,32 +9,22 @@
  */
 void print_to_98(int n)
 {
-	int x;
 
-	if (n <= 98)
+	if (n >= 98)
 	{
-		x = n++;
-		_putchar(',');
-		_putchar(' ');
+		while (n > 98)
+			printf("%d, ", n--);
+		printf("%d\n", n);
 
-	_putchar  ('\n');
-	else if (n == 98)
-	{
-		continue;
-		_putchar(',');
-		_putchar(' ');
-
-	_putchar('\n');
+	}
 
 	else
 	{
-		x = n--;
-		_putchar(',');
-		_putchar(' ');
-	}
-	}
+
+		while (n < 98)
+		printf("%d, ", n++);
+		printf("%d\n", n);
 	}
 
 	_putchar('\n');
-	return (x);
 }
