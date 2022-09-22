@@ -14,6 +14,7 @@ int base10(int n)
 		base *= 10;
 		n--;
 	}
+
 	return (base);
 }
 
@@ -32,7 +33,6 @@ void print_number(int n)
 	{
 		_putchar('-');
 		n *= -1;
-	}
 
 	if (n == 0)
 		_putchar('0');
@@ -48,5 +48,6 @@ void print_number(int n)
 			n %= power;
 			power /= 10;
 		}
+	}
 	}
 }
